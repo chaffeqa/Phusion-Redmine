@@ -3,7 +3,7 @@
 /config/additional_environment.rb
 /config/configuration.yml
 /config/database.yml
-/config/email.yml
+#/config/email.yml
 #/config/initializers/session_store.rb
 /coverage
 /db/*.db
@@ -26,3 +26,4 @@
 
 vendor/plugins/redmine_heroku
 vendor/plugins/redmine_s3
+

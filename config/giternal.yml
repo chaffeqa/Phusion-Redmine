@@ -1,8 +1,8 @@
 redmine_heroku:
   path: vendor/plugins
   repo: http://github.com/edavis10/redmine_heroku.git
-
-redmine_s3:
-  path: vendor/plugins
-  repo: http://github.com/tigrish/redmine_s3.git
+# TODO
+#redmine_s3:
+#  path: vendor/plugins
+#  repo: http://github.com/tigrish/redmine_s3.git
 
