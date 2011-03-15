@@ -9,13 +9,6 @@
 # secret is at least 30 characters and all random, no regular words or
 # you'll be exposed to dictionary attacks.
 ActionController::Base.session = {
-  :key => '_redmine_session',
-  #
-  # Uncomment and edit the :session_path below if are hosting your Redmine
-  # at a suburi and don't want the top level path to access the cookies
-  #
-  # See: http://www.redmine.org/issues/3968
-  #
-  # :session_path => '/url_path_to/your/redmine/',
-  :secret => 'c116acc4521d5ab34557c3c2bbce41faf02dfef74a7d923d15beb7e923b39e0338b4bb208855d6ae'
+  :session_key => '_redmine_session',
+  :secret => ENV['SESSION_SECRET']
 }
