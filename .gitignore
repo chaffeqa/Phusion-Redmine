@@ -15,7 +15,7 @@
 /log/*.log*
 /log/mongrel_debug
 /public/dispatch.*
-/public/plugin_assets
+#/public/plugin_assets
 /tmp/*
 /tmp/cache/*
 /tmp/sessions/*
@@ -24,3 +24,5 @@
 /vendor/rails
 *.rbc
 
+vendor/plugins/redmine_heroku
+vendor/plugins/redmine_s3
