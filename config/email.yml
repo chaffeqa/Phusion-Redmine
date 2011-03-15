@@ -1,0 +1,10 @@
+production:
+  delivery_method: :smtp
+  smtp_settings:
+    address: "smtp.sendgrid.net"
+    port: 25
+    authentication: :plain
+    domain: "heroku.com"
+    user_name: "app469783@heroku.com"
+    password: "c98505740cfb288b36"
+
