@@ -53,7 +53,7 @@ Rails::Initializer.run do |config|
 
   config.gem 'rubytree', :lib => 'tree'
   config.gem 'coderay', :version => '~>0.9.7'
-  config.gem 'I18n', :version => '0.4.2'
+  config.gem 'i18n', :version => '0.4.2'
 
   # Load any local configuration that is kept out of source control
   # (e.g. gems, patches).
