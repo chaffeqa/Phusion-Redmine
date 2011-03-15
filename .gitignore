@@ -1,7 +1,7 @@
 /.project
 /.loadpath
 /config/additional_environment.rb
-/config/configuration.yml
+#/config/configuration.yml
 /config/database.yml
 #/config/email.yml
 #/config/initializers/session_store.rb
